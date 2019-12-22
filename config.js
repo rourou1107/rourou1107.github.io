@@ -1,0 +1,135 @@
+module.exports = {
+    base: '/rourou1107.github.io/dist/',
+    title: '肉肉的博客', // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称
+    description: '肉肉的前端记录', // meta 中的描述文字，用于SEO
+    // 注入到当前页面的 HTML <head> 中的标签
+    head: [
+        ['link',
+            { rel: 'icon', href: '  ./logo.jpg' }
+            //浏览器的标签栏的网页图标，第一个'/'会遍历public文件夹的文件
+        ],
+    ],
+    // base: '/web_accumulate/', // 这是部署到github相关的配置 下面会讲
+    markdown: {
+        lineNumbers: true // 代码块显示行号
+    },
+
+    //下面涉及到的md文件和其他文件的路径
+    themeConfig: {
+        logo: './logo.jpg',  //网页顶端导航栏左上角的图标
+
+        //顶部导航栏
+        nav: [
+            { text: '首页', link: '/' },
+
+            //格式二：添加下拉菜单，link指向的文件路径
+            {
+                text: '博客',  //默认显示
+                ariaLabel: '博客',   //用于识别的label
+                items: [
+                    { text: '文章', link: '/pages/vuepress/use_vuepress.md' },
+                    //点击标签会跳转至link的markdown文件生成的页面
+                ]
+            },
+            //格式三：跳转至外部网页，需http/https前缀
+            { text: 'Github', link: 'https://github.com/rourou1107' },
+        ],
+        //侧边导航栏：会根据当前的文件路径是否匹配侧边栏数据，自动显示/隐藏
+        sidebar: [
+            {
+                title: 'blogs',   // 一级菜单名称
+                collapsable: true, // false为默认展开菜单, 默认值true是折叠,
+                sidebarDepth: 1,    //  设置侧边导航自动提取markdown文件标题的层级，默认1为h2层级
+                children: [
+                    ['/pages/vuepress/use_vuepress.md', 'vuepress的使用'],  // 以docs为根目录来查找文件
+                ]
+            },
+            {
+                title: 'Javascript',
+                collapsable: true,
+                sidebarDepth: 1,
+                children: [
+                    ['/pages/javascript/JS基本语法.md', 'JS基本语法'],
+                    ['/pages/javascript/JS类型转换.md', 'JS类型转换'],
+                    ['/pages/javascript/内存图与JS世界.md', '内存图与JS世界'],
+                    ['/pages/javascript/JS三座大山之原型.md', 'JS三座大山之原型'],
+                    ['/pages/javascript/JS三座大山之AJAX.md', 'JS三座大山之AJAX'],
+                    ['/pages/javascript/JS三座大山之this.md', 'JS三座大山之this'],
+                    ['/pages/javascript/JS函数的执行时机.md', 'JS函数执行时机'],
+                    ['/pages/javascript/JavaScript的历史.md', 'JavaScript的历史'],
+                    ['/pages/javascript/JS创建对象的方式.md', 'JS创建对象的方式'],
+                ]
+            },
+            {
+                title: 'ES6',
+                collapsable: true,
+                sidebarDepth: 1,
+                children: [
+                    ['/pages/ES6/浅谈class.md', '浅谈class'],
+                    ['/pages/ES6/ES6-模块化.md', 'ES6-模块化'],
+                ]
+            },
+            {
+                title: '设计模式',
+                collapsable: true,
+                sidebarDepth: 1,
+                children: [
+                    ['/pages/设计模式/浅谈MVC.md', '浅谈MVC'],
+                ]
+            },
+            {
+                title: 'Vue',
+                collapsable: true,
+                sidebarDepth: 1,
+                children: [
+                    ['/pages/vue/vue完整版与非完整版的区别.md', 'vue完整版与非完整版的区别'],
+                    ['/pages/vue/浅谈vue数据响应式.md', '浅谈vue数据响应式'],
+                    ['/pages/vue/vue构造选项之数据.md', 'vue构造选项之数据'],
+
+                ]
+            },
+            {
+                title: 'webpack',
+                collapsable: true,
+                sidebarDepth: 1,
+                children: [
+                    ['/pages/webpack/webpack初体验.md', 'webpack初体验'],
+                ]
+            },
+            {
+                title: 'HTTP',
+                collapsable: true,
+                sidebarDepth: 1,
+                children: [
+                    ['/pages/HTTP/浅谈url.md', '浅谈url'],
+                    ['/pages/HTTP/http基础概念.md', 'http基础概念'],
+                ]
+            },
+            {
+                title: '其他',
+                collapsable: true,
+                sidebarDepth: 1,
+                children: [
+                    ['/pages/other/git的使用.md', 'git的使用'],
+                ]
+            },
+            {
+                title: '面试',
+                collapsable: true,
+                sidebarDepth: 1,
+                children: [
+                    ['/pages/interview/JS变量的类型判断.md', 'JS变量的类型判断'],
+                    ['/pages/interview/对象的深拷贝.md', '对象的深拷贝'],
+                    ['/pages/interview/跨域常见解决方案.md', '跨域常见解决方案'],
+                    ['/pages/interview/四种排序算法.md', '四种排序算法'],
+                    ['/pages/interview/cookie、session.md', 'cookie、session'],
+                    ['/pages/interview/http面试题.md', 'http面试题'],
+                    ['/pages/interview/vue常见的面试题.md', 'vue常见的面试题'],
+                ]
+            },
+        ]
+
+            //...可添加多个不同的侧边栏，不同页面会根据路径显示不同的侧边栏
+            //...可添加多个不同的侧边栏，不同页面会根据路径显示不同的侧边栏
+    }
+}
