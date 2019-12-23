@@ -70,6 +70,16 @@ module.exports = {
                 ]
             },
             {
+                title: 'TypeScript',
+                collapsable: true,
+                sidebarDepth: 1,
+                children: [
+                    ['/pages/TypeScript/how-to-use.md', 'how-to-use'],
+                    ['/pages/TypeScript/原始数据类型.md', '原始数据类型'],
+                    ['/pages/TypeScript/任意值.md', '任意值'],
+                ]
+            },
+            {
                 title: '设计模式',
                 collapsable: true,
                 sidebarDepth: 1,
