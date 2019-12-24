@@ -77,6 +77,7 @@ module.exports = {
                     ['/pages/TypeScript/how-to-use.md', 'how-to-use'],
                     ['/pages/TypeScript/原始数据类型.md', '原始数据类型'],
                     ['/pages/TypeScript/任意值.md', '任意值'],
+                    ['/pages/TypeScript/类型相关.md', '类型相关'],
                 ]
             },
             {
@@ -129,6 +130,7 @@ module.exports = {
                 sidebarDepth: 1,
                 children: [
                     ['/pages/interview/JS变量的类型判断.md', 'JS变量的类型判断'],
+                    ['/pages/interview/JS常见面试题.md', 'JS常见面试题'],
                     ['/pages/interview/对象的深拷贝.md', '对象的深拷贝'],
                     ['/pages/interview/跨域常见解决方案.md', '跨域常见解决方案'],
                     ['/pages/interview/四种排序算法.md', '四种排序算法'],
