@@ -70,7 +70,7 @@ module.exports = {
                 ]
             },
             {
-                title: 'TypeScript',
+                title: 'TypeScript基础',
                 collapsable: true,
                 sidebarDepth: 1,
                 children: [
@@ -78,6 +78,7 @@ module.exports = {
                     ['/pages/TypeScript/原始数据类型.md', '原始数据类型'],
                     ['/pages/TypeScript/任意值.md', '任意值'],
                     ['/pages/TypeScript/类型相关.md', '类型相关'],
+                    ['/pages/TypeScript/类型断言.md', '类型断言'],
                 ]
             },
             {
