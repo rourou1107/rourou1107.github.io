@@ -124,6 +124,7 @@ module.exports = {
                 sidebarDepth: 1,
                 children: [
                     ['/pages/other/git的使用.md', 'git的使用'],
+                    ['/pages/other/如何mock数据.md', '如何mock数据'],
                 ]
             },
             {
@@ -131,6 +132,8 @@ module.exports = {
                 collapsable: true,
                 sidebarDepth: 1,
                 children: [
+                    ['/pages/interview/DOM常见的面试题.md', 'DOM&&BOM常见的面试题'],
+                    ['/pages/interview/css常见面试题.md', 'css常见面试题'],
                     ['/pages/interview/JS变量的类型判断.md', 'JS变量的类型判断'],
                     ['/pages/interview/JS常见面试题.md', 'JS常见面试题'],
                     ['/pages/interview/对象的深拷贝.md', '对象的深拷贝'],
