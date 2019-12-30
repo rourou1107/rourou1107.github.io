@@ -125,6 +125,7 @@ module.exports = {
                 children: [
                     ['/pages/other/git的使用.md', 'git的使用'],
                     ['/pages/other/如何mock数据.md', '如何mock数据'],
+                    ['/pages/other/cube-ui.md', 'cube-ui'],
                 ]
             },
             {
