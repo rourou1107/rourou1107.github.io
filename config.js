@@ -98,6 +98,7 @@ module.exports = {
                     ['/pages/vue/浅谈vue数据响应式.md', '浅谈vue数据响应式'],
                     ['/pages/vue/vue指令的修饰符.md', 'vue指令的修饰符'],
                     ['/pages/vue/vue构造选项之数据.md', 'vue构造选项之数据'],
+                    ['/pages/vue/插槽.md', '插槽'],
 
                 ]
             },
