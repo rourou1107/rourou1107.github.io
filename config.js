@@ -27,7 +27,7 @@ module.exports = {
                 text: '博客',  //默认显示
                 ariaLabel: '博客',   //用于识别的label
                 items: [
-                    { text: '文章', link: '/pages/vuepress/use_vuepress.md' },
+                    { text: '文章', link: '/pages/javascript/JavaScript的历史.md' },
                     //点击标签会跳转至link的markdown文件生成的页面
                 ]
             },
@@ -36,14 +36,6 @@ module.exports = {
         ],
         //侧边导航栏：会根据当前的文件路径是否匹配侧边栏数据，自动显示/隐藏
         sidebar: [
-            {
-                title: 'blogs',   // 一级菜单名称
-                collapsable: true, // false为默认展开菜单, 默认值true是折叠,
-                sidebarDepth: 1,    //  设置侧边导航自动提取markdown文件标题的层级，默认1为h2层级
-                children: [
-                    ['/pages/vuepress/use_vuepress.md', 'vuepress的使用'],  // 以docs为根目录来查找文件
-                ]
-            },
             {
                 title: 'Javascript',
                 collapsable: true,
@@ -103,6 +95,16 @@ module.exports = {
                 ]
             },
             {
+                title: 'React',
+                collapsable: true,
+                sidebarDepth: 1,
+                children: [
+                    ['/pages/react/how-to-import-react.md', '如何引用React'],
+                    ['/pages/react/React初体验.md', 'React初体验'],
+                    ['/pages/react/React语法.md', 'React语法'],
+                ]
+            },
+            {
                 title: 'webpack',
                 collapsable: true,
                 sidebarDepth: 1,
@@ -127,6 +129,8 @@ module.exports = {
                     ['/pages/other/git的使用.md', 'git的使用'],
                     ['/pages/other/如何mock数据.md', '如何mock数据'],
                     ['/pages/other/cube-ui.md', 'cube-ui'],
+                    ['/pages/other/better-scroll.md', 'better-scroll'],
+                    ['/pages/other/seller.md', 'seller'],
                 ]
             },
             {
