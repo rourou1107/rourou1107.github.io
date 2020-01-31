@@ -134,6 +134,14 @@ module.exports = {
                 ]
             },
             {
+                title: '旺财记账',
+                collapsable: true,
+                sidebarDepth: 1,
+                children: [
+                    ['/pages/morney/旺财记账之项目搭建.md', '旺财记账之项目搭建'],
+                ]
+            },
+            {
                 title: '面试',
                 collapsable: true,
                 sidebarDepth: 1,
