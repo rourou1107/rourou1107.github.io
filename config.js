@@ -131,6 +131,7 @@ module.exports = {
                     ['/pages/other/cube-ui.md', 'cube-ui'],
                     ['/pages/other/better-scroll.md', 'better-scroll'],
                     ['/pages/other/seller.md', 'seller'],
+                    ['/pages/other/webstorm快捷键.md', 'webstorm快捷键'],
                 ]
             },
             {
@@ -139,6 +140,9 @@ module.exports = {
                 sidebarDepth: 1,
                 children: [
                     ['/pages/morney/旺财记账之项目搭建.md', '旺财记账之项目搭建'],
+                    ['/pages/morney/旺财记账之部分思路.md', '旺财记账之部分思路'],
+                    ['/pages/morney/旺财记账之vue知识点.md', '旺财记账之vue知识点'],
+                    ['/pages/morney/旺财记账之ts知识点.md', '旺财记账之ts知识点']
                 ]
             },
             {
