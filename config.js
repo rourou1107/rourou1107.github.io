@@ -143,7 +143,6 @@ module.exports = {
                     ['/pages/morney/旺财记账之项目搭建.md', '旺财记账之项目搭建'],
                     ['/pages/morney/旺财记账之部分思路.md', '旺财记账之部分思路'],
                     ['/pages/morney/旺财记账之vue知识点.md', '旺财记账之vue知识点'],
-                    ['/pages/morney/旺财记账之ts知识点.md', '旺财记账之ts知识点']
                 ]
             },
             {
