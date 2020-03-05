@@ -89,8 +89,8 @@ module.exports = {
                     ['/pages/vue/vue完整版与非完整版的区别.md', 'vue完整版与非完整版的区别'],
                     ['/pages/vue/浅谈vue数据响应式.md', '浅谈vue数据响应式'],
                     ['/pages/vue/vue指令的修饰符.md', 'vue指令的修饰符'],
-                    ['/pages/vue/vue构造选项之数据.md', 'vuex的使用'],
-                    ['/pages/vue/vuex的使用.md', 'vue构造选项之数据'],
+                    ['/pages/vue/vue构造选项之数据.md', 'vue构造选项之数据'],
+                    ['/pages/vue/vuex的使用.md', 'vuex的使用'],
                     ['/pages/vue/插槽.md', '插槽'],
 
                 ]
@@ -136,13 +136,13 @@ module.exports = {
                 ]
             },
             {
-                title: '旺财记账',
+                title: '流水账',
                 collapsable: true,
                 sidebarDepth: 1,
                 children: [
-                    ['/pages/morney/旺财记账之项目搭建.md', '旺财记账之项目搭建'],
-                    ['/pages/morney/旺财记账之部分思路.md', '旺财记账之部分思路'],
-                    ['/pages/morney/旺财记账之vue知识点.md', '旺财记账之vue知识点'],
+                    ['/pages/morney/流水账之项目搭建.md', '肉肉记账之项目搭建'],
+                    ['/pages/morney/流水账之部分思路.md', '肉肉记账之部分思路'],
+                    ['/pages/morney/流水账之vue知识点.md', '肉肉记账之vue知识点'],
                 ]
             },
             {
