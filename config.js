@@ -160,6 +160,8 @@ module.exports = {
                     ['/pages/interview/cookie、session.md', 'cookie、session'],
                     ['/pages/interview/http面试题.md', 'http面试题'],
                     ['/pages/interview/vue常见的面试题.md', 'vue常见的面试题'],
+                    ['/pages/interview/html&css押题.md', 'html&css押题'],
+                    ['/pages/interview/JS押题.md', 'JS押题'],
                 ]
             },
         ]
