@@ -103,6 +103,7 @@ module.exports = {
                     ['/pages/react/how-to-import-react.md', '如何引用React'],
                     ['/pages/react/React初体验.md', 'React初体验'],
                     ['/pages/react/React语法.md', 'React语法'],
+                    ['/pages/react/React之Class组件详解.md', 'React之Class组件详解'],
                 ]
             },
             {
@@ -162,6 +163,7 @@ module.exports = {
                     ['/pages/interview/vue常见的面试题.md', 'vue常见的面试题'],
                     ['/pages/interview/html&css押题.md', 'html&css押题'],
                     ['/pages/interview/JS押题.md', 'JS押题'],
+                    ['/pages/interview/DOM押题.md', 'DOM押题'],
                 ]
             },
         ]
