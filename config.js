@@ -104,6 +104,8 @@ module.exports = {
                     ['/pages/react/React初体验.md', 'React初体验'],
                     ['/pages/react/React语法.md', 'React语法'],
                     ['/pages/react/React之Class组件详解.md', 'React之Class组件详解'],
+                    ['/pages/react/React之函数组件详解.md', 'React之函数组件详解'],
+                    ['/pages/react/React之useState原理.md', 'React之useState原理'],
                 ]
             },
             {
