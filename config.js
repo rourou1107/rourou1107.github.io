@@ -106,6 +106,7 @@ module.exports = {
                     ['/pages/react/React之Class组件详解.md', 'React之Class组件详解'],
                     ['/pages/react/React之函数组件详解.md', 'React之函数组件详解'],
                     ['/pages/react/React之useState原理.md', 'React之useState原理'],
+                    ['/pages/react/React之Hooks大全.md', 'React之Hooks大全'],
                 ]
             },
             {
