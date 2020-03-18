@@ -154,6 +154,10 @@ module.exports = {
                 collapsable: true,
                 sidebarDepth: 1,
                 children: [
+                    ['/pages/interview/1、html&css押题.md', '1、html&css押题'],
+                    ['/pages/interview/2、JS押题.md', '2、JS押题'],
+                    ['/pages/interview/3、DOM押题.md', '3、DOM押题'],
+                    ['/pages/interview/4、HTTP押题.md', '4、HTTP押题'],
                     ['/pages/interview/DOM常见的面试题.md', 'DOM&&BOM常见的面试题'],
                     ['/pages/interview/css常见面试题.md', 'css常见面试题'],
                     ['/pages/interview/JS变量的类型判断.md', 'JS变量的类型判断'],
@@ -164,9 +168,6 @@ module.exports = {
                     ['/pages/interview/cookie、session.md', 'cookie、session'],
                     ['/pages/interview/http面试题.md', 'http面试题'],
                     ['/pages/interview/vue常见的面试题.md', 'vue常见的面试题'],
-                    ['/pages/interview/html&css押题.md', 'html&css押题'],
-                    ['/pages/interview/JS押题.md', 'JS押题'],
-                    ['/pages/interview/DOM押题.md', 'DOM押题'],
                 ]
             },
         ]
