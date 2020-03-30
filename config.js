@@ -150,6 +150,35 @@ module.exports = {
                 ]
             },
             {
+                title: '番茄任务闹钟',
+                collapsable: true,
+                sidebarDepth: 1,
+                children: [
+                    ['/pages/taskAlarm/构建篇.md', '番茄任务闹钟之构建篇'],
+                    ['/pages/taskAlarm/登录注册页面.md', '登录注册页面'],
+                    ['/pages/taskAlarm/首页.md', '首页'],
+                ]
+            },
+            {
+                title: '自制 UI 框架',
+                collapsable: true,
+                sidebarDepth: 1,
+                children: [
+                    ['/pages/rourou-ui/构建篇.md', '构建篇'],
+                    ['/pages/rourou-ui/1、button组件单元测试.md', 'button组件单元测试'],
+                    ['/pages/rourou-ui/button组件.md', 'button组件'],
+                ]
+            },
+            {
+                title: '单元测试',
+                collapsable: true,
+                sidebarDepth: 1,
+                children: [
+                    ['/pages/unit-test/自动化测试.md', '自动化测试'],
+                    ['/pages/unit-test/npm上传.md', 'npm上传'],
+                ]
+            },
+            {
                 title: '面试',
                 collapsable: true,
                 sidebarDepth: 1,
@@ -158,6 +187,7 @@ module.exports = {
                     ['/pages/interview/2、JS押题.md', '2、JS押题'],
                     ['/pages/interview/3、DOM押题.md', '3、DOM押题'],
                     ['/pages/interview/4、HTTP押题.md', '4、HTTP押题'],
+                    ['/pages/interview/5、vue押题.md', '5、vue押题'],
                     ['/pages/interview/DOM常见的面试题.md', 'DOM&&BOM常见的面试题'],
                     ['/pages/interview/css常见面试题.md', 'css常见面试题'],
                     ['/pages/interview/JS变量的类型判断.md', 'JS变量的类型判断'],
