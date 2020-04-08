@@ -165,8 +165,13 @@ module.exports = {
                 sidebarDepth: 1,
                 children: [
                     ['/pages/rourou-ui/构建篇.md', '构建篇'],
-                    ['/pages/rourou-ui/1、button组件单元测试.md', 'button组件单元测试'],
-                    ['/pages/rourou-ui/button组件.md', 'button组件'],
+                    ['/pages/rourou-ui/1、Button组件单元测试.md', 'Button组件单元测试'],
+                    ['/pages/rourou-ui/2、Input组件单元测试.md', 'Input组件单元测试'],
+                    ['/pages/rourou-ui/Button组件.md', 'Button组件'],
+                    ['/pages/rourou-ui/Input组件.md', 'Input组件'],
+                    ['/pages/rourou-ui/Row&Col组件.md', 'Row&Col组件'],
+                    ['/pages/rourou-ui/Toast组件.md', 'Toast组件'],
+                    ['/pages/rourou-ui/Tabs组件.md', 'Tabs组件'],
                 ]
             },
             {
