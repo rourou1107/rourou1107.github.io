@@ -50,6 +50,7 @@ module.exports = {
                     ['/pages/javascript/JS函数的执行时机.md', 'JS函数执行时机'],
                     ['/pages/javascript/JavaScript的历史.md', 'JavaScript的历史'],
                     ['/pages/javascript/JS创建对象的方式.md', 'JS创建对象的方式'],
+                    ['/pages/javascript/JS基础题.md', 'JS基础题'],
                 ]
             },
             {
@@ -172,6 +173,7 @@ module.exports = {
                     ['/pages/rourou-ui/Row&Col组件.md', 'Row&Col组件'],
                     ['/pages/rourou-ui/Toast组件.md', 'Toast组件'],
                     ['/pages/rourou-ui/Tabs组件.md', 'Tabs组件'],
+                    ['/pages/rourou-ui/PopOver组件.md', 'PopOver组件'],
                 ]
             },
             {
