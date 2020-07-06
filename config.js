@@ -194,28 +194,38 @@ module.exports = {
                     ['/pages/unit-test/npm上传.md', 'npm上传'],
                 ]
             },
+            // {
+            //     title: '面试',
+            //     collapsable: true,
+            //     sidebarDepth: 1,
+            //     children: [
+            //         ['/pages/interview/1、html&css押题.md', '1、html&css押题'],
+            //         ['/pages/interview/2、JS押题.md', '2、JS押题'],
+            //         ['/pages/interview/3、DOM押题.md', '3、DOM押题'],
+            //         ['/pages/interview/4、HTTP押题.md', '4、HTTP押题'],
+            //         ['/pages/interview/5、vue押题.md', '5、vue押题'],
+            //         ['/pages/interview/DOM常见的面试题.md', 'DOM&&BOM常见的面试题'],
+            //         ['/pages/interview/css常见面试题.md', 'css常见面试题'],
+            //         ['/pages/interview/JS变量的类型判断.md', 'JS变量的类型判断'],
+            //         ['/pages/interview/JS常见面试题.md', 'JS常见面试题'],
+            //         ['/pages/interview/对象的深拷贝.md', '对象的深拷贝'],
+            //         ['/pages/interview/跨域常见解决方案.md', '跨域常见解决方案'],
+            //         ['/pages/interview/四种排序算法.md', '四种排序算法'],
+            //         ['/pages/interview/cookie、session.md', 'cookie、session'],
+            //         ['/pages/interview/http面试题.md', 'http面试题'],
+            //         ['/pages/interview/vue常见的面试题.md', 'vue常见的面试题'],
+            //     ]
+            // },
             {
-                title: '面试',
+                title: '项目经验',
                 collapsable: true,
                 sidebarDepth: 1,
                 children: [
-                    ['/pages/interview/1、html&css押题.md', '1、html&css押题'],
-                    ['/pages/interview/2、JS押题.md', '2、JS押题'],
-                    ['/pages/interview/3、DOM押题.md', '3、DOM押题'],
-                    ['/pages/interview/4、HTTP押题.md', '4、HTTP押题'],
-                    ['/pages/interview/5、vue押题.md', '5、vue押题'],
-                    ['/pages/interview/DOM常见的面试题.md', 'DOM&&BOM常见的面试题'],
-                    ['/pages/interview/css常见面试题.md', 'css常见面试题'],
-                    ['/pages/interview/JS变量的类型判断.md', 'JS变量的类型判断'],
-                    ['/pages/interview/JS常见面试题.md', 'JS常见面试题'],
-                    ['/pages/interview/对象的深拷贝.md', '对象的深拷贝'],
-                    ['/pages/interview/跨域常见解决方案.md', '跨域常见解决方案'],
-                    ['/pages/interview/四种排序算法.md', '四种排序算法'],
-                    ['/pages/interview/cookie、session.md', 'cookie、session'],
-                    ['/pages/interview/http面试题.md', 'http面试题'],
-                    ['/pages/interview/vue常见的面试题.md', 'vue常见的面试题'],
+                    ['/pages/experience/cache.md', '路由缓存'],
+                    ['/pages/experience/formCheck.md', '表单校验']
                 ]
             },
+
         ]
 
             //...可添加多个不同的侧边栏，不同页面会根据路径显示不同的侧边栏
