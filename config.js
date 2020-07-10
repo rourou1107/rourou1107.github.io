@@ -222,7 +222,8 @@ module.exports = {
                 sidebarDepth: 1,
                 children: [
                     ['/pages/experience/cache.md', '路由缓存'],
-                    ['/pages/experience/formCheck.md', '表单校验']
+                    ['/pages/experience/formCheck.md', '表单校验'],
+                    ['/pages/experience/print.md', '打印']
                 ]
             },
 
