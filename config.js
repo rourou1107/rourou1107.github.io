@@ -120,6 +120,15 @@ module.exports = {
                 ]
             },
             {
+                title: 'React之小白',
+                collapsable: true,
+                sidebarDepth: 1,
+                children: [
+                    ['/pages/react之小白/1.React的诞生', '1.React的诞生'],
+                    ['/pages/react之小白/2.任意组件之间的通信', '2.任意组件之间的通信']
+                ]
+            },
+            {
                 title: 'webpack',
                 collapsable: true,
                 sidebarDepth: 1,
