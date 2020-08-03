@@ -156,6 +156,7 @@ module.exports = {
                     ['/pages/other/better-scroll.md', 'better-scroll'],
                     ['/pages/other/seller.md', 'seller'],
                     ['/pages/other/webstorm快捷键.md', 'webstorm快捷键'],
+                    ['/pages/other/npm命令.md', 'npm命令']
                 ]
             },
             {
@@ -166,16 +167,6 @@ module.exports = {
                     ['/pages/morney/流水账之项目搭建.md', '肉肉记账之项目搭建'],
                     ['/pages/morney/流水账之部分思路.md', '肉肉记账之部分思路'],
                     ['/pages/morney/流水账之vue知识点.md', '肉肉记账之vue知识点'],
-                ]
-            },
-            {
-                title: '番茄任务闹钟',
-                collapsable: true,
-                sidebarDepth: 1,
-                children: [
-                    ['/pages/taskAlarm/构建篇.md', '番茄任务闹钟之构建篇'],
-                    ['/pages/taskAlarm/登录注册页面.md', '登录注册页面'],
-                    ['/pages/taskAlarm/首页.md', '首页'],
                 ]
             },
             {
@@ -192,6 +183,18 @@ module.exports = {
                     ['/pages/rourou-ui/Toast组件.md', 'Toast组件'],
                     ['/pages/rourou-ui/Tabs组件.md', 'Tabs组件'],
                     ['/pages/rourou-ui/PopOver组件.md', 'PopOver组件'],
+                ]
+            },
+            {
+                title: 'vue3造轮子',
+                collapsable: true,
+                sidebarDepth: 1,
+                children: [
+                    ['/pages/vue3造轮子/1.安装的依赖.md', '1.安装的依赖'],
+                    ['/pages/vue3造轮子/2.vue3和vue2的区别.md', 'vue3和vue2的区别'],
+                    ['/pages/vue3造轮子/3.shims-vue.d.md', 'shims-vue.d的使用'],
+                    ['/pages/vue3造轮子/4.router的使用.md', 'router的使用'],
+                    ['/pages/vue3造轮子/5.官网搭建.md', '官网搭建']
                 ]
             },
             {
