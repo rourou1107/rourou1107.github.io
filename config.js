@@ -93,6 +93,7 @@ module.exports = {
                     ['/pages/vue/vue构造选项之数据.md', 'vue构造选项之数据'],
                     ['/pages/vue/vuex的使用.md', 'vuex的使用'],
                     ['/pages/vue/插槽.md', '插槽'],
+                    ['/pages/vue/$attrs.md', '$attrs']
 
                 ]
             },
@@ -125,7 +126,8 @@ module.exports = {
                 sidebarDepth: 1,
                 children: [
                     ['/pages/react之小白/1.React的诞生', '1.React的诞生'],
-                    ['/pages/react之小白/2.任意组件之间的通信', '2.任意组件之间的通信']
+                    ['/pages/react之小白/2.任意组件之间的通信', '2.任意组件之间的通信'],
+                    ['/pages/react之小白/3.Redux详解', '3.Redux详解']
                 ]
             },
             {
@@ -156,7 +158,8 @@ module.exports = {
                     ['/pages/other/better-scroll.md', 'better-scroll'],
                     ['/pages/other/seller.md', 'seller'],
                     ['/pages/other/webstorm快捷键.md', 'webstorm快捷键'],
-                    ['/pages/other/npm命令.md', 'npm命令']
+                    ['/pages/other/npm命令.md', 'npm命令'],
+                    ['/pages/other/scss.md', 'scss']
                 ]
             },
             {
@@ -194,7 +197,8 @@ module.exports = {
                     ['/pages/vue3造轮子/2.vue3和vue2的区别.md', 'vue3和vue2的区别'],
                     ['/pages/vue3造轮子/3.shims-vue.d.md', 'shims-vue.d的使用'],
                     ['/pages/vue3造轮子/4.router的使用.md', 'router的使用'],
-                    ['/pages/vue3造轮子/5.官网搭建.md', '官网搭建']
+                    ['/pages/vue3造轮子/5.官网搭建.md', '官网搭建'],
+                    ['/pages/vue3造轮子/6.UI库css注意事项.md', 'UI库css注意事项']
                 ]
             },
             {
@@ -206,28 +210,28 @@ module.exports = {
                     ['/pages/unit-test/npm上传.md', 'npm上传'],
                 ]
             },
-            // {
-            //     title: '面试',
-            //     collapsable: true,
-            //     sidebarDepth: 1,
-            //     children: [
-            //         ['/pages/interview/1、html&css押题.md', '1、html&css押题'],
-            //         ['/pages/interview/2、JS押题.md', '2、JS押题'],
-            //         ['/pages/interview/3、DOM押题.md', '3、DOM押题'],
-            //         ['/pages/interview/4、HTTP押题.md', '4、HTTP押题'],
-            //         ['/pages/interview/5、vue押题.md', '5、vue押题'],
-            //         ['/pages/interview/DOM常见的面试题.md', 'DOM&&BOM常见的面试题'],
-            //         ['/pages/interview/css常见面试题.md', 'css常见面试题'],
-            //         ['/pages/interview/JS变量的类型判断.md', 'JS变量的类型判断'],
-            //         ['/pages/interview/JS常见面试题.md', 'JS常见面试题'],
-            //         ['/pages/interview/对象的深拷贝.md', '对象的深拷贝'],
-            //         ['/pages/interview/跨域常见解决方案.md', '跨域常见解决方案'],
-            //         ['/pages/interview/四种排序算法.md', '四种排序算法'],
-            //         ['/pages/interview/cookie、session.md', 'cookie、session'],
-            //         ['/pages/interview/http面试题.md', 'http面试题'],
-            //         ['/pages/interview/vue常见的面试题.md', 'vue常见的面试题'],
-            //     ]
-            // },
+            {
+                title: '面试',
+                collapsable: true,
+                sidebarDepth: 1,
+                children: [
+                    ['/pages/interview/1、html&css押题.md', '1、html&css押题'],
+                    ['/pages/interview/2、JS押题.md', '2、JS押题'],
+                    ['/pages/interview/3、DOM押题.md', '3、DOM押题'],
+                    ['/pages/interview/4、HTTP押题.md', '4、HTTP押题'],
+                    ['/pages/interview/5、vue押题.md', '5、vue押题'],
+                    ['/pages/interview/DOM常见的面试题.md', 'DOM&&BOM常见的面试题'],
+                    ['/pages/interview/css常见面试题.md', 'css常见面试题'],
+                    ['/pages/interview/JS变量的类型判断.md', 'JS变量的类型判断'],
+                    ['/pages/interview/JS常见面试题.md', 'JS常见面试题'],
+                    ['/pages/interview/对象的深拷贝.md', '对象的深拷贝'],
+                    ['/pages/interview/跨域常见解决方案.md', '跨域常见解决方案'],
+                    ['/pages/interview/四种排序算法.md', '四种排序算法'],
+                    ['/pages/interview/cookie、session.md', 'cookie、session'],
+                    ['/pages/interview/http面试题.md', 'http面试题'],
+                    ['/pages/interview/vue常见的面试题.md', 'vue常见的面试题'],
+                ]
+            },
             {
                 title: '项目经验',
                 collapsable: true,
