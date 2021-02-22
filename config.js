@@ -128,7 +128,8 @@ module.exports = {
                     ['/pages/react之小白/1.React的诞生', '1.React的诞生'],
                     ['/pages/react之小白/2.任意组件之间的通信', '2.任意组件之间的通信'],
                     ['/pages/react之小白/3.Redux详解', '3.Redux详解'],
-                    ['/pages/react之小白/4.React&redux结合', '4.React&redux结合']
+                    ['/pages/react之小白/4.React&redux结合', '4.React&redux结合'],
+                    ['/pages/react之小白/5.React-Redux来代替Redux', '5.React-Redux来代替Redux']
                 ]
             },
             {
