@@ -131,7 +131,8 @@ module.exports = {
                     ['/pages/react之小白/4.React&redux结合', '4.React&redux结合'],
                     ['/pages/react之小白/5.React-Redux与Redux结合', '5.React-Redux与Redux结合'],
                     ['/pages/react之小白/6.简述Context的使用和实现', '6.简述Context的使用和实现'],
-                    ['/pages/react之小白/7.React Hook Api', '7.React Hook Api']
+                    ['/pages/react之小白/7.React Hook Api', '7.React Hook Api'],
+                    ['/pages/react之小白/8. React Router', '8. React Router']
                 ]
             },
             {
@@ -203,6 +204,22 @@ module.exports = {
                     ['/pages/vue3造轮子/4.router的使用.md', 'router的使用'],
                     ['/pages/vue3造轮子/5.官网搭建.md', '官网搭建'],
                     ['/pages/vue3造轮子/6.UI库css注意事项.md', 'UI库css注意事项']
+                ]
+            },
+            {
+                title: '可视化大屏',
+                collapsable: true,
+                sidebarDepth: 1,
+                children: [
+                    ['/pages/Visualize-large-screens/项目总结.md', '1.项目总结']
+                ]
+            },
+            {
+                title: 'nodejs',
+                collapsable: true,
+                sidebarDepth: 1,
+                children: [
+                    ['/pages/nodejs/1.浅谈nodejs', '1.浅谈nodejs']
                 ]
             },
             {
