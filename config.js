@@ -221,7 +221,10 @@ module.exports = {
                 children: [
                     ['/pages/nodejs/1.浅谈nodejs.md', '1.浅谈nodejs'],
                     ['/pages/nodejs/2.创建Node.js命令行项目.md', '2.创建Node.js命令行项目'],
-                    ['/pages/nodejs/3.文件模块.md', '3.文件模块']
+                    ['/pages/nodejs/3.文件模块.md', '3.文件模块'],
+                    ['/pages/nodejs/4.上传到npm.md', '4.上传到npm'],
+                    ['/pages/nodejs/5.使用ts写node.md', '5.使用ts写node'],
+                    ['/pages/nodejs/6.静态服务器.md', '6.静态服务器']
                 ]
             },
             {
@@ -253,6 +256,8 @@ module.exports = {
             //         ['/pages/interview/cookie、session.md', 'cookie、session'],
             //         ['/pages/interview/http面试题.md', 'http面试题'],
             //         ['/pages/interview/vue常见的面试题.md', 'vue常见的面试题'],
+            //         ['/pages/interview/虚拟DOM&diff算法.md', '虚拟DOM&diff算法'],
+            //         ['/pages/interview/Web性能优化.md', 'Web性能优化'],
             //     ]
             // },
             {
