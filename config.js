@@ -67,7 +67,8 @@ module.exports = {
                 collapsable: true,
                 sidebarDepth: 1,
                 children: [
-                    ['/pages/TypeScript/how-to-use.md', 'how-to-use'],
+                    ['/pages/TypeScript/1.how-to-use.md', '1.how-to-use.md'],
+                    ['/pages/TypeScript/2.ts的类型.md', '2.ts的类型.md'],
                     ['/pages/TypeScript/原始数据类型.md', '原始数据类型'],
                     ['/pages/TypeScript/任意值.md', '任意值'],
                     ['/pages/TypeScript/类型相关.md', '类型相关'],
