@@ -142,6 +142,8 @@ module.exports = {
                 sidebarDepth: 1,
                 children: [
                     ['/pages/webpack/webpack初体验.md', 'webpack初体验'],
+                    ['/pages/webpack/AST、Babel、依赖.md', 'AST、Babel、依赖'],
+                    ['/pages/webpack/webpack的一些配置.md', 'webpack的一些配置'],
                 ]
             },
             {
@@ -247,6 +249,7 @@ module.exports = {
             //         ['/pages/interview/3、DOM押题.md', '3、DOM押题'],
             //         ['/pages/interview/4、HTTP押题.md', '4、HTTP押题'],
             //         ['/pages/interview/5、vue押题.md', '5、vue押题'],
+            //         ['/pages/interview/6、webpack面试题.md', '6、webpack面试题'],
             //         ['/pages/interview/DOM常见的面试题.md', 'DOM&&BOM常见的面试题'],
             //         ['/pages/interview/css常见面试题.md', 'css常见面试题'],
             //         ['/pages/interview/JS变量的类型判断.md', 'JS变量的类型判断'],
